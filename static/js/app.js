@@ -21,27 +21,6 @@ function updateTable(data) {
 
 updateTable(data);
 
-// var submit = d3.select("#filter-btn");
-
-// function filterByDate(data) {
-//   var filteredData = data.filter(function (d) {
-//     return d.datetime === d3.select('#datetime').val();
-//   });
-
-//   return filteredData;
-// };
-
-// submit.on("click", function() {
-//   d3.event.preventDefault();
-//   // When filter is click
-//   // Filter data by datetime and update the table
-//   var result = filterByDate(data);
-//   updateTable(result);
-// });
-
-
-
-
 
 var submit = d3.select("#filter-btn");
   
